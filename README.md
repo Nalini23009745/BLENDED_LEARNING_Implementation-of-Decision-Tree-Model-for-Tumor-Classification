@@ -9,6 +9,7 @@ To implement and evaluate a Decision Tree model to classify tumors as benign or 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1.Load Data: Import the dataset using pandas and load the tumor data from the given file path.
 2.Check for Missing Values: Check if there are any missing values in the dataset using isnull().sum().
 3.Handle Missing Values: If there are any missing values, remove them using dropna().
@@ -26,6 +27,7 @@ To implement and evaluate a Decision Tree model to classify tumors as benign or 
 10.Visualize the Confusion Matrix: Create a heatmap using seaborn to visualize the confusion matrix with appropriate labels for "Benign" and "Malignant" classes.
 11.Display Decision Tree Rules: Print out the decision tree rules using export_text() to show the classification logic.
 12.Visualize the Decision Tree: Plot the decision tree using plot_tree() to visually represent how the decision-making process works. 
+```
 
 ## Program:
 ```
